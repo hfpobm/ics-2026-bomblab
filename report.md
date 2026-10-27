@@ -856,6 +856,15 @@ python3 public_test.py
 
 ---
 
+### 10.4 非公开测试
+利用seed 666进行测试
+`{ ./defuser --seed 666; ./defuser --secret --seed 666; } | ./bomb --seed 666`
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
 ## 11. 踩坑记录
 
 ### 11.1 阶段 2：截断顺序搞反
